@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="is-smooth-scroll-compatible is-loaded is-ready has-scroll-init has-scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/lib/locomotive-scroll.min.css">
     <link rel="stylesheet" href="./assets/styles/style.css" />
     <title>Portfolio Creteur Benoit</title>
   </head>
-  <body>
+  <body data-scroll-container>
     <header>
       <div class="links">
         <a href="#Portfolio">Portfolio</a>
@@ -113,6 +114,13 @@
             <p>2023</p>
           </div>
         </div>
+        <div class="projet" id="p3">
+          <img src="assets/img/pic13.jpg" alt="projet 2" />
+          <div class="projet-info">
+            <a href="https//google.com" target="blank">GKR moto</a>
+            <p>2023</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -142,5 +150,7 @@
         <div class="img img2"></div>
       </div>
     </footer>
+    <script src="./assets/lib/locomotive-scroll.min.js"></script>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
