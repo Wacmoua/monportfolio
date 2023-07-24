@@ -1,0 +1,92 @@
+/* parametres generaux  */
+@font-face {
+    font-family: "font-reg";
+    src: url(../fonts/PlayFairDisplay-regular.ttf);
+}
+
+@font-face {
+    font-family: "font-bold";
+    src: url(../fonts/PlayFairDisplay-ExtraBold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+*::selection {
+    background: #000101;
+    color: #fefeff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "font-reg" , serif;
+    background: #000101;
+    color: #fefeff;
+    transition: 0.7s ease-in-out;
+}
+
+h2 {
+    font-size: calc(3rem + 5vw);
+    text-align: center;
+    color: rgb(217, 217, 217);
+    font-family: "font-bold", serif;
+    letter-spacing: 3px;
+}
+
+.title {
+    font-size: calc(1.5rem + 5vw);
+    letter-spacing: 0;
+}
+
+span {
+    display: inline-block;
+}
+
+a, a:visited {
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: #fefeff;
+    transition: 0.1s linear;
+    font-size: calc(0.8rem + 0.8vw);
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #fefeff;
+    bottom: -4px;
+    left: 0;
+    transform-origin: left;
+}
+
+a:hover {
+    transform: scale(1.04);
+    color: rgb(217, 217, 217);
+}
+
+a:hover::after {
+    animation: animLink 1.4s infinite ease-in-out;
+}
+
+@keyframes animLink {
+    50% {
+       transform: scaleX(0.2);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+
+
+
+/* parametres par ordres d'apparition  */
