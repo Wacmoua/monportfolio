@@ -53,7 +53,7 @@ function validateForm(event) {
   }
 
   
-  alert('Formulaire validé ! Redirection en cours...');
+  // alert('Formulaire validé ! Redirection en cours...');
   window.location.href = 'pageenvoi.html';
 
 

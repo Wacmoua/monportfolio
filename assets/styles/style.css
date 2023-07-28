@@ -112,7 +112,7 @@ a:hover::after {
     max-width: 395px;
     margin: 0 auto;
     filter: grayscale(100%);
-    transition: 1.6S;
+    transition: 1.2S;
 
 }
 
@@ -128,7 +128,7 @@ a:hover::after {
     background: #000101;
     transition: 1s cubic-bezier(0.77, 0, 0.18, 1);
     transform-origin: left;
-    transition-delay: 0.4s;
+    transition-delay: 0.2s;
     opacity: 0;
     transform: scaleX(0);
 
@@ -171,6 +171,7 @@ header {
 .links {
     display: flex;
     justify-content: space-between;
+    
 
 }
 
@@ -215,7 +216,7 @@ header h2 {
 }
 
 .img1 {
-    background: url(../img/office.jpg) top/cover;
+    background: url(../img/the\ office.jpg) top/cover;
 }
 
 .h2-wrapper {
@@ -285,8 +286,8 @@ header h2 {
     width: 100%;
     top: -3px;
     background: #fefeff;
-    transition: width 1s ease-out;
-    transition-delay: 1s;
+    transition: width 0.8s ease-out;
+    transition-delay: 0.8s;
 }
 
 .project.is-inview::before {
@@ -303,7 +304,7 @@ header h2 {
 }
 
 .project img {
-    transition: 0.4s ease-out;
+    transition: 0.3s ease-out;
     width: 100%;
 }
 
@@ -321,7 +322,7 @@ header h2 {
     top: 50%;
     transform: translate(-50px, -50%);
     margin-left: 8vw;
-    transition: 0.4s ease-out;
+    transition: 0.3s ease-out;
     opacity: 0;
 }
 
@@ -355,7 +356,7 @@ header h2 {
 }
 
 #l3 {
-    transition-delay: 1.6s;
+    transition-delay: 1.4s;
 }
 
 .contact a {
@@ -377,7 +378,7 @@ form {
     margin: 50px 0 50px;
     font-size: calc(1rem + 2vw);
     width: 100vw;
-    margin-left: 40px;
+    margin-left: 30px;
     
     
 }
@@ -400,6 +401,9 @@ form button {
     width: 50vw;
     border-radius: 5px;
     height: 30px;
+    color: #fefeff;
+    background-color: #000101;
+    
 }
 table {
     border-collapse: separate;
